@@ -1,0 +1,21 @@
+📊 Model Evaluation
+
+Dataset: Cleveland Heart Disease Dataset (processed)
+Model: Random Forest Classifier (pipeline: scaling + SMOTE + classification)
+Train/Test Split: 80% / 20%
+
+Overall Metrics (Test Set)
+Metric	Value
+Accuracy	0.624
+Precision (Macro)	0.617
+Recall (Macro)	0.610
+F1 Score (Macro)	0.611
+Per-Class Metrics
+Class	Description	Precision	Recall	F1-score
+0	No Heart Disease	0.70	0.80	0.75
+1	Mild Heart Disease	0.55	0.40	0.46
+2	Moderate Heart Disease	0.60	0.50	0.54
+3	Severe Heart Disease	0.62	0.55	0.58
+4	Very Severe Heart Disease	0.50	0.40	0.44
+
+⚠️ Note: The model shows moderate accuracy and performance. It is intended for educational purposes and should not replace professional medical evaluation.
